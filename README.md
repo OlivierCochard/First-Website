@@ -3,10 +3,10 @@ It's a website built using HTML and CSS. I experimented with the basics by imple
 
 # Images
 <table>
-	<img src="img/website_1_1.png" width="100%"/>
+	<img src="img/website_1_1.jpg" width="100%"/>
   <tr>
-  	<td><img src="img/website_1_2.png" width="300"/></td>
-    <td><img src="img/website_1_3.png" width="300"/></td>
-    <td><img src="img/website_1_4.png" width="300"/></td>
+  	<td><img src="img/website_1_2.jpg" width="300"/></td>
+    <td><img src="img/website_1_3.jpg" width="300"/></td>
+    <td><img src="img/website_1_4.jpg" width="300"/></td>
   </tr>
 </table>
