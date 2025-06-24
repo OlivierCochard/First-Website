@@ -1,0 +1,34 @@
+section.un { /*Mise en place de 3 colones avec celle de droite plus petite*/
+	display: grid;
+	grid-template-columns: 2fr 2fr 1fr; 
+}
+section.deux { /*Mise en place de 2 colones avec celle de droite un peu plus grande*/
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+section.deux p {	
+	margin: 5px;
+}
+figcaption {
+	color: white; /*changement de couleur du texte dans le figcaption*/
+}
+figure {
+	border: 1px black solid; /*sjout d'un border pour le visuel*/
+	padding: 10px;
+}
+
+
+
+
+article {
+	margin: 40px;
+	border-radius: 10%;
+}
+article p, article ul {
+	border-radius: 5px;
+}
+
+
+
+
+

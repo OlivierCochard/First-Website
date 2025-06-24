@@ -1,0 +1,161 @@
+h1, footer {
+	text-align: center;
+}
+header.logo img {
+	 width: 800px;
+
+	 /*centrer l'image qui me sert de header'*/
+	 margin-left: auto;
+	 margin-right: auto;
+	 display: block;
+}
+
+footer {
+	border: solid black 2px;
+	background-color: gray;
+	margin-bottom: -40px;
+	margin-top: 2%;
+	padding: 0.1%;
+	border-radius: 50px 50px 0px 0px; /*arrondir à 50% les coins en haut à droite et en haut à gauche*/
+}
+footer p {
+	color: orange;
+}
+footer a, article a {
+	text-decoration-color: transparent;/*rendre invisible les sous-lignage*/
+}
+footer:hover p {
+	text-shadow: black 1px 0 10px; /*encore ajout d'ombre pour texte*/
+	color: white;
+}
+footer:hover a, article:hover a {
+	text-decoration-color: orange;/*changer la couleur du sous-lignage*/
+	color: orange;
+}
+
+header.titre:hover {
+	color: orange;
+	background-color: black;
+	border: 3px solid white;
+}
+header.titre {
+  background-color: white;
+  border: 3px solid black;
+  width: 300px;
+  margin-left: 36em; /*centrer mon header.titre*/
+  margin-top: -43px;
+  border-radius: 35%; /*arrondir ma border*/
+  position: absolute; /*ignorer les autres elements, pour pouvoir passer au dessus*/
+}
+header.logo {
+  background-color: transparent; /*fond transparent*/
+  padding-top: 0%;
+  padding-bottom: 5%;
+}
+
+html {
+  width: 1800px;
+  background-image: url('img/background.jpg'); /*ajout image de fond*/
+  background-repeat: no-repeat; /*empecher d'avoir l'image qui se repete*/
+  background-size: cover; /*couvrir toute la surface de l'ecran*/
+  background-attachment: fixed; /*fixer l'image*/
+  padding-top: 2%;
+  margin-left: auto; /*centrer le html*/
+  margin-right: auto; /*centrer le html*/
+}
+body {
+  width: 80%;
+  background-color: transparent;
+  margin-left: auto; /*centrer le body*/
+  margin-right: auto; /*centrer le body*/
+}
+
+article p {
+  padding: 2%;
+  text-align: justify;
+  margin-bottom: -1%;
+  text-justify: auto;
+}
+article h3, aside h3 {
+	text-shadow: black 1px 0 10px; /*ajout d'une ombre derriere texte*/
+	text-align: center;
+	color: orange;
+}
+article p:hover {
+	color: white;
+	background-color: black;
+	border: 2px solid yellow;
+}
+article:hover h3, aside:hover h3 { /*quand souris sur article modifie article h3 et quand souris sur aside modifie aside h3*/
+	color: yellow;
+}
+article p::first-letter {				/*modification premiere lettre des paragraphes qui sont dans des articles*/
+	color: orange;
+	font-size: 200%;					/*augmentation taille * 2*/
+	vertical-align: baseline;			/*centrage vertical vers la base du paragraphe*/
+}
+article {
+	background-color: grey;
+  border: solid black 2px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+
+
+
+article:hover {
+	filter: contrast(120%);
+	background-color: #525252;
+}
+aside:hover {
+	background-color: #525252;
+}
+footer:hover {
+	filter: contrast(120%);
+	background-color: #525252;
+}
+article img:hover {
+	filter: grayscale(100%);
+}
+
+
+
+article p {
+  background-color: white;
+  border: solid black 1px;
+}
+
+main {
+	background-color: transparent;
+}
+
+
+
+
+ul:hover {
+	background-color: black;
+	border: 1px yellow solid;
+}
+ul:hover li {
+	color: white;
+}
+ul {
+	background-color: white;
+	border: 1px black solid;
+	padding: 5px;
+}
+li {
+	color: black;
+	list-style-type: none; 
+	padding: 5px;
+}
+ul p {
+	background-color: transparent;
+}
+
+abbr {
+	font-style: italic;
+	text-decoration: underline;
+}

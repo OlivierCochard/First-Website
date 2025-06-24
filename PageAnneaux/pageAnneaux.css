@@ -1,0 +1,82 @@
+main {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr; /*creation 4 colonnes équitables*/
+}
+
+article {
+	height: 1060px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 20px;
+	display: block;
+}
+article.un {
+	border-radius: 50px 5px 5px 50px;
+}
+article.deux, article.trois {
+	border-radius: 5px;
+}
+article.quatre {
+	border-radius: 5px 50px 50px 5px;
+}
+article p {
+	margin-top: 5px;
+	height: 780px;
+	padding: 1px;
+}
+
+
+article img {
+	border: 2px solid white;
+	height: 190px;
+	width: 260px;
+	/*centrage des images qui sont dans les blocks*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article.un img {
+	border-radius: 25px 5px 0px 0px;
+}
+article.un p {
+	border-radius: 0px 0px 5px 25px;
+}
+article.deux img, article.trois img {
+	border-radius: 5px 5px 0px 0px;
+}
+article.deux p, article.trois p {
+	border-radius: 0px 0px 5px 5px;
+}
+article.un img {
+	border-radius: 25px 5px 0px 0px;
+}
+article.un p {
+	border-radius: 0px 0px 5px 25px;
+}
+article.quatre img {
+	border-radius: 5px 25px 0px 0px;
+}
+article.quatre p {
+	border-radius: 0px 0px 25px 5px;
+}
+
+article.presentation {
+	margin-top: 40px;
+	border-radius: 50px;
+	height: 320px;
+}
+article.presentation p {
+	margin-top: 30px;
+	border-radius: 5px;
+	height: 220px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+
+
+article img:hover {
+	filter: grayscale(100%); /* d'un filtre noir et blanc lorsque la souris est sur une image présent dans un article*/ /*trouvé grace à : https://developer.mozilla.org/fr/docs/Web/CSS/filter*/
+}

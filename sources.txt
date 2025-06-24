@@ -1,0 +1,17 @@
+->	sources.txt	<-
+
+MOZILLA : (pour les questions techniques)
+https://developer.mozilla.org/fr/docs/Web/CSS/filter
+https://developer.mozilla.org/fr/docs/Web/CSS/background
+
+WIKIPEDIA : (pour le contenu)
+https://fr.wikipedia.org/wiki/La_Communaut%C3%A9_de_l%27Anneau
+https://fr.wikipedia.org/wiki/Les_Deux_Tours
+https://fr.wikipedia.org/wiki/Le_Retour_du_Roi
+https://fr.wikipedia.org/wiki/Le_Seigneur_des_anneaux_(s%C3%A9rie_de_films)
+
+FANDOM : (pour le contenu)
+https://lotr.fandom.com/fr/wiki/Wiki_J._R._R._Tolkien
+
+GETTYIMAGES : (pour les images)
+https://www.gettyimages.fr/photos/trilogie-du-seigneur-des-anneaux

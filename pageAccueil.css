@@ -1,0 +1,155 @@
+iframe {
+	margin-left: 25%; /*centrer mon trailer vers youtube*/
+	margin-top: 3%;
+}
+
+nav mark {
+	color: orange;
+	background-color: white;
+	border: solid black 1px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto; /*installation de 4 colonnes*/
+  margin-top: 20px;
+  text-align: center;
+}
+nav p {
+	color: black;
+	margin-top: 10px;
+}
+nav.un, nav.deux, nav.trois, nav.quatre {
+	border: solid 1px black;
+	height: 150px;
+	width: 200px;
+	margin-left: 80px; /*center les 4 nav*/
+}
+nav.un {
+	background-image: url('img/nav-anneau.jpg'); /*ajout image de fond*/
+	background-repeat: no-repeat; /*empecher d'avoir l'image qui se repete*/
+	background-size: cover; /*couvrir toute la surface de l'ecran*/
+	background-attachment: local; /*image qui ne bouge qu'en cas de changement de dimensions*/
+}
+nav.deux {
+	background-image: url('img/nav-perso.jpg'); /*ajout image de fond*/
+	background-repeat: no-repeat; /*empecher d'avoir l'image qui se repete*/
+	background-size: cover; /*couvrir toute la surface de l'ecran*/
+	background-attachment: local;
+}
+nav.trois {
+	background-image: url('img/nav-ecrivain.jpg'); /*ajout image de fond*/
+	background-repeat: no-repeat; /*empecher d'avoir l'image qui se repete*/
+	background-size: cover; /*couvrir toute la surface de l'ecran*/
+	background-attachment: local;
+}
+nav.quatre {
+	background-image: url('img/nav-reussite.jpg'); /*ajout image de fond*/
+	background-repeat: no-repeat; /*empecher d'avoir l'image qui se repete*/
+	background-size: cover; /*couvrir toute la surface de l'ecran*/
+	background-attachment: local;
+}
+
+
+main.anneaux {
+
+  background-color: grey;
+  display: grid;
+  grid-template-columns: auto auto; /*creation 2 colonnes*/
+  grid-template-rows: auto auto; /*creation 2 lignes*/
+}
+
+
+
+
+article.anneau, article.perso, article.ecrivain, article.reussite {
+  border: solid black 2px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
+article.anneau p, article.perso p, article.ecrivain p, article.reussite p {
+  background-color: white;
+  height: 170px;
+  border: solid black 1px;
+}
+
+article.presentation:hover {
+	background-color: transparent;
+}
+article.presentation:hover h3 {
+	color: orange;
+}
+article.oeuvre:hover h3 {
+	color: yellow;
+}
+
+
+
+article.oeuvre {
+	background-color: grey;
+}
+article.oeuvre p {
+  background-color: white;
+  border: 1px solid black;
+  height: 290px;
+  width: 1200px;
+  /*centrer*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+article.presentation {
+	margin-top: 50px;
+	background-color: transparent;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-top: 10px;
+	border: transparent;
+}
+article.oeuvre h3 {
+	border: 0px solid black;
+}
+
+aside {
+	background-color: grey;
+	border: 2px solid black;
+	width: 1000px;
+	height: 500px;
+	margin-left: 15%; /*centrer aside*/
+	margin-top: 40px;
+}
+
+iframe {
+	margin-left: 50px;
+	margin-top: 0px;
+	border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+aside:hover iframe {
+	border: 2px solid yellow;
+}
+
+
+nav.un:hover, nav.deux:hover, nav.trois:hover, nav.quatre:hover {
+	border: 1px solid white;
+	filter: hue-rotate(180deg); /*effectuer un changement de couleur (ici bleu) quans la souris passe sur 1 des 4 navs*/ /*trouvé sur le lien suivant : https://developer.mozilla.org/fr/docs/Web/CSS/filter*/
+}
+
+nav.un:hover mark, nav.deux:hover mark, nav.trois:hover mark, nav.quatre:hover mark {
+	border: 1px solid white;
+	background-color: black;
+}
+
+
